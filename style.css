@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  p{
+    color:grey;
+  }
+  .login-form{
+    width: 350px;
+    height: 400px;
+    background-color:#000000;
+    color:#fff;
+    margin: auto;
+    /* padding-bottom:64px;
+    padding-top: 20px; */
+    text-align:center;
+  }
+  .login-form h1{
+    padding-top: 25px;
+  }
+  
+  input{
+    text-align:center;
+    background-color:#000;
+    color:red;
+  }
+  
+  .input{
+    border:2px solid #2556a4;
+    border-radius:50px;
+    padding:12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin:20px;
+  }
+  
+  a{
+    margin:10px;
+    color: grey;
+  }
+  
+  button{
+    margin: 20px;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+  }
+  
+  #social{
+    text-decoration:none;
+    color:#fff;
+  }
+  #social:hover{
+    background-color: #000;
+    color: #2556a4;
+  }
+  
+  #grad1{
+   width: 1000px;
+   height: 500px;
+   margin: auto;
+   display: flex;
+    background-image: linear-gradient(to right, rgb(143, 3, 3), rgb(11, 90, 143));
+  }
+  #grad2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* padding-top: 100px;
+    padding-bottom: 300px; */
+    background-image: linear-gradient(to right bottom, rgb(205, 35, 35), rgb(72, 15, 187));;
+  }
+
+  @media screen and (max-width: 770px){
+    .login-form{
+    margin:50px 50px;
+    }
+    #grad1{
+    height: 320px;
+    margin: 50px 50px;
+    padding-top: px;
+    padding-bottom: 142px;
+    }
+
+    #grad2{
+    padding-top: 100px;
+    padding-bottom: 300px;
+    }
+  }
