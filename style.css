@@ -79,17 +79,19 @@
 
   @media screen and (max-width: 770px){
     .login-form{
-    margin:50px 50px;
+      width: 350px;
+      height: 400px;
+      background-color:#000000;
+      color:#fff;
+      margin: auto;
     }
     #grad1{
-    height: 320px;
-    margin: 50px 50px;
-    padding-top: px;
-    padding-bottom: 142px;
+    width: 450px;
+   height: 500px;
+    margin: auto;
     }
 
     #grad2{
-    padding-top: 100px;
-    padding-bottom: 300px;
+    display: flex;
     }
   }
